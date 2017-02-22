@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def version():
-    return jsonify(data='cool bro v0.{}'.format(2))
+    return jsonify(data='cool bro v0.{}'.format(3))
 
 
 @app.route('/reload', methods=['POST'])
