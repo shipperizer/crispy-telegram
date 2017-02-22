@@ -1,6 +1,6 @@
 FROM python:3.6
 
-RUN apt-get update && apt-get -y install build-essential wget git nano supervisord
+RUN apt-get update && apt-get -y install build-essential wget git nano supervisor
 
 WORKDIR /var/app
 
